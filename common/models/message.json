@@ -1,0 +1,51 @@
+{
+  "name": "message",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "token": {
+      "type": "string",
+      "required": true
+    },
+    "team_domain": {
+      "type": "string",
+      "required": true
+    },
+    "team_id": {
+      "type": "string",
+      "required": true
+    },
+    "channel_id": {
+      "type": "string",
+      "required": true
+    },
+    "channel_name": {
+      "type": "string",
+      "required": true
+    },
+    "timestamp": {
+      "type": "number",
+      "required": true
+    },
+    "user_id": {
+      "type": "string",
+      "required": true
+    },
+    "user_name": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "trigger_word": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
